@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 import undetected_chromedriver.v2 as uchrome
 
+from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -68,7 +69,9 @@ def saveemail():
 
 def activateChromeLogPass():
     # Chrome in stealth
-    driver = uchrome.Chrome()
+    op = webdriver.ChromeOptions()
+    op.add_argument('headless')
+    driver = uchrome.Chrome(options=op)
     driver.get('https://app.earnaha.com/sat')
     driver.maximize_window()
     # read login and password
