@@ -1,0 +1,24 @@
+Aha Login
+=========
+username : silalahitotok@gmail.com
+passwd	: t0tokahA@
+
+username : victorbiz766hi@yandex.com
+passwd	: t0tokahA@
+
+3rd Party App
+=============
+            "uname": victorbiz766hi@gmail.com 
+		 "ahapwd": t0tokahA@
+            "apppwd": qaswuxkanosscpsk
+
+            "uname": victorbiz766hi@yandex.com
+            "pwd": khrdirapclnymzil
+
+
+
+Error :
+=======
+When Sign Up
+https://aha.jp.auth0.com/v2/logout?client_id=8sJkR1ksPfoDcZFL6aoPGyDd38bTCSy2&returnTo=https://app.earnaha.com/sat?errCode=AccountConflict
+
